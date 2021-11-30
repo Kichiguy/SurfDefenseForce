@@ -1,0 +1,5978 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 7
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 7
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 4
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 0
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_DirectLightInLightProbes: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 1024
+    m_ReflectionCompression: 2
+  m_LightingDataAsset: {fileID: 0}
+  m_RuntimeCPUUsage: 25
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    accuratePlacement: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &8570694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 178750, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 8570695}
+  - component: {fileID: 8570696}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Clouds_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8570695
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 490154, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 8570694}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.9678483, y: -0.8264781, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 472774319}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &8570696
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21271690, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 8570694}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300010, guid: 7defff1d4aff79044ad92d574a65dde1, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &19340877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100306, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 19340878}
+  - component: {fileID: 19340879}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Clouds_0 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &19340878
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 427786, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 19340877}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.31, y: -0.83, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 750348544}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &19340879
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21256958, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 19340877}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 21300000, guid: 17d04c11123faf14ca196b28fb7d431d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!4 &22514276
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 451446, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1391178546}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 301428094}
+  - {fileID: 2013671571}
+  - {fileID: 1638212835}
+  m_Father: {fileID: 1080456266}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &27250197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 179988, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 163071434}
+  m_Layer: 0
+  m_Name: Layer 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &31129013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 109964, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 31129014}
+  - component: {fileID: 31129015}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Clouds_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &31129014
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440278, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 31129013}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.07, y: -1.44, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 750348544}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &31129015
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21212524, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 31129013}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 21300000, guid: 17d04c11123faf14ca196b28fb7d431d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &81496693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 173978, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 81496694}
+  - component: {fileID: 81496695}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Islands_10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &81496694
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 405354, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 81496693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 36.83, y: -1.08, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1671583463}
+  m_Father: {fileID: 1368578196}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &81496695
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21209040, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 81496693}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300022, guid: 9b7dc5904eaed314884dc843260486fa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &105969724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 117912, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 105969725}
+  - component: {fileID: 105969727}
+  - component: {fileID: 105969726}
+  m_Layer: 0
+  m_Name: Waterfall2_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &105969725
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 439554, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 105969724}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.6484022, y: 2.1500523, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 968917504}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &105969726
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9566684, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 105969724}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fa9bdf01af8c92b4ea16f15edded9bfe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!212 &105969727
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21222678, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 105969724}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 6
+  m_Sprite: {fileID: 21300000, guid: 9c692e968227e4e4486f772b6913e6ce, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &148576583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 166026, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 148576584}
+  - component: {fileID: 148576585}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Islands_5 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &148576584
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457860, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 148576583}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.05, y: -0.82, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791915822}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &148576585
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21241500, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 148576583}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300010, guid: 02ef9e63fdf31594491f5cbef3b419db, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &157179692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 130326, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 157179693}
+  - component: {fileID: 157179694}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Clouds_13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &157179693
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 495946, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 157179692}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 36.83, y: 0.37, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 750348544}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &157179694
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21295016, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 157179692}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 21300024, guid: 17d04c11123faf14ca196b28fb7d431d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!4 &163071434
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 487282, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 27250197}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2046742730}
+  - {fileID: 219488955}
+  - {fileID: 356911968}
+  - {fileID: 178147564}
+  - {fileID: 549094590}
+  - {fileID: 1745754302}
+  - {fileID: 2032983403}
+  - {fileID: 2142942864}
+  - {fileID: 1947704701}
+  - {fileID: 1757356428}
+  - {fileID: 414438519}
+  - {fileID: 1203340259}
+  m_Father: {fileID: 1080456266}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &166600651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 173526, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 166600652}
+  - component: {fileID: 166600653}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Islands_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &166600652
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 487910, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 166600651}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.9847207, y: -0.4161075, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791915822}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &166600653
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21254392, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 166600651}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300006, guid: 02ef9e63fdf31594491f5cbef3b419db, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &172168342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 176672, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 172168343}
+  - component: {fileID: 172168344}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Clouds_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &172168343
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 414616, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 172168342}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.28, y: -1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 750348544}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &172168344
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21236610, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 172168342}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 21300002, guid: 17d04c11123faf14ca196b28fb7d431d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.634}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &177635728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 175110, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 177635729}
+  - component: {fileID: 177635730}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Clouds_0 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &177635729
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 442590, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 177635728}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.23, y: -1.29, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1517607475}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &177635730
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21275458, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 177635728}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 21300000, guid: cf0c5485be967094f90171b61aad1e77, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &178147563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 146220, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 178147564}
+  - component: {fileID: 178147565}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Islands_8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &178147564
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 438880, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 178147563}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 39.39, y: -1.04, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 163071434}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &178147565
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21255428, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 178147563}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300016, guid: 3a6b3fa98110e924ca231f7d61b9d6f0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &194173238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 102540, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 194173239}
+  - component: {fileID: 194173240}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Clouds_0 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &194173239
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 444346, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 194173238}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3, y: -0.85, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1517607475}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &194173240
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21237648, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 194173238}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 21300000, guid: cf0c5485be967094f90171b61aad1e77, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &208634465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 169540, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 208634466}
+  - component: {fileID: 208634467}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Clouds_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &208634466
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 468094, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 208634465}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.28, y: -1.77, z: 0}
+  m_LocalScale: {x: 1.4239336, y: 1.4239336, z: 1.4239336}
+  m_Children: []
+  m_Father: {fileID: 1517607475}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &208634467
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21223998, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 208634465}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 21300000, guid: cf0c5485be967094f90171b61aad1e77, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &219488954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 142198, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 219488955}
+  - component: {fileID: 219488956}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Islands_10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &219488955
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 408274, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 219488954}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.82, y: -1.4687308, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 163071434}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &219488956
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21264074, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 219488954}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300020, guid: 3a6b3fa98110e924ca231f7d61b9d6f0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &226805623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 165214, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 226805624}
+  - component: {fileID: 226805625}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Clouds_7 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &226805624
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 455142, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 226805623}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.18, y: -0.72, z: 0}
+  m_LocalScale: {x: 2.0367687, y: 2.0367687, z: 2.0367687}
+  m_Children: []
+  m_Father: {fileID: 750348544}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &226805625
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21227934, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 226805623}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 21300012, guid: 17d04c11123faf14ca196b28fb7d431d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &250539486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 127852, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 250539487}
+  - component: {fileID: 250539488}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Clouds_1 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &250539487
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 433946, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 250539486}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 43.39, y: -1.59, z: 0}
+  m_LocalScale: {x: 1.2421302, y: 1.2114073, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1517607475}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &250539488
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21205798, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 250539486}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 21300002, guid: cf0c5485be967094f90171b61aad1e77, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &259335943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 177976, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 259335944}
+  - component: {fileID: 259335945}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Clouds_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &259335944
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 430842, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 259335943}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.437848, y: -0.7764781, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 472774319}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &259335945
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21284528, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 259335943}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300008, guid: 7defff1d4aff79044ad92d574a65dde1, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &262846246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 150860, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 262846247}
+  - component: {fileID: 262846248}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Islands_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &262846247
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 408446, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 262846246}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.5, y: -1.26, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1368578196}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &262846248
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21266400, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 262846246}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300004, guid: 9b7dc5904eaed314884dc843260486fa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &301428093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 126170, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 301428094}
+  - component: {fileID: 301428095}
+  m_Layer: 0
+  m_Name: Sky Islands - Layer 0 - Deep Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &301428094
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 418278, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 301428093}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.7578483, y: -0.0764781, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22514276}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &301428095
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21298998, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 301428093}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 47baa12794fb0864fbf6b3b38767dcc0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &343470575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 116584, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 343470576}
+  - component: {fileID: 343470577}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Islands_7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &343470576
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 470870, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 343470575}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.5636234, y: -0.4672986, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791915822}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &343470577
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21250954, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 343470575}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300014, guid: 02ef9e63fdf31594491f5cbef3b419db, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &352480436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 112674, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 352480437}
+  - component: {fileID: 352480438}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Islands_9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &352480437
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 439546, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 352480436}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.300316, y: -0.44170484, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791915822}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &352480438
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21252126, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 352480436}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300018, guid: 02ef9e63fdf31594491f5cbef3b419db, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &356911967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 185062, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 356911968}
+  - component: {fileID: 356911969}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Islands_9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &356911968
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 448512, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 356911967}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 33.05, y: -0.66, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 163071434}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &356911969
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21220722, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 356911967}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300018, guid: 3a6b3fa98110e924ca231f7d61b9d6f0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &374723904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 150020, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 374723905}
+  - component: {fileID: 374723906}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Islands_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &374723905
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 428438, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 374723904}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.255198, y: -0.05779407, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791915822}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &374723906
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21285186, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 374723904}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300002, guid: 02ef9e63fdf31594491f5cbef3b419db, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &383128270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 125734, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 383128271}
+  - component: {fileID: 383128272}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Clouds_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &383128271
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 456282, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 383128270}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.63, y: -1.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1517607475}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &383128272
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21247704, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 383128270}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 21300006, guid: cf0c5485be967094f90171b61aad1e77, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &414438518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 146696, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 414438519}
+  - component: {fileID: 414438520}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Islands_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &414438519
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 446932, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 414438518}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.06, y: -0.84, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 163071434}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &414438520
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21217930, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 414438518}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300002, guid: 3a6b3fa98110e924ca231f7d61b9d6f0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!4 &472774319
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 436444, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1428157713}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1937029480}
+  - {fileID: 1708845678}
+  - {fileID: 1885716379}
+  - {fileID: 259335944}
+  - {fileID: 8570695}
+  - {fileID: 606478731}
+  m_Father: {fileID: 1080456266}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &479637122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 187314, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1368578196}
+  m_Layer: 0
+  m_Name: Layer 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &549094589
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 137144, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 549094590}
+  - component: {fileID: 549094591}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Islands_7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &549094590
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 450574, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 549094589}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 26.7, y: 0.19, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 163071434}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &549094591
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21207600, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 549094589}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300014, guid: 3a6b3fa98110e924ca231f7d61b9d6f0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &552894722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 193390, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 552894723}
+  - component: {fileID: 552894724}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Islands_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &552894723
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 493684, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 552894722}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.69, y: -1.41, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2050820837}
+  m_Father: {fileID: 1368578196}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &552894724
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21213528, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 552894722}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300000, guid: 9b7dc5904eaed314884dc843260486fa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &568593464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 127594, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 568593465}
+  - component: {fileID: 568593466}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Islands_12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &568593465
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 423580, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 568593464}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 43.14, y: -2.83, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1368578196}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &568593466
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21265084, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 568593464}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300026, guid: 9b7dc5904eaed314884dc843260486fa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &583704079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 109786, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 583704080}
+  - component: {fileID: 583704081}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Clouds_12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &583704080
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 401336, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 583704079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 37.777847, y: -0.7864781, z: 0}
+  m_LocalScale: {x: 1, y: 0.88116443, z: 1}
+  m_Children: []
+  m_Father: {fileID: 750348544}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &583704081
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21276482, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 583704079}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 21300022, guid: 17d04c11123faf14ca196b28fb7d431d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &584680568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188268, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 584680569}
+  - component: {fileID: 584680570}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Clouds_3 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &584680569
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 485576, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 584680568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.46, y: -1.04, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1517607475}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &584680570
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21272612, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 584680568}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 21300006, guid: cf0c5485be967094f90171b61aad1e77, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &606478730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 102190, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 606478731}
+  - component: {fileID: 606478732}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Clouds_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &606478731
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 481856, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 606478730}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.4978485, y: -0.56647813, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 472774319}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &606478732
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21258792, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 606478730}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300012, guid: 7defff1d4aff79044ad92d574a65dde1, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &646570533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 126664, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 646570534}
+  - component: {fileID: 646570535}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Islands_11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &646570534
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457196, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 646570533}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.7518215, y: -0.44171533, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791915822}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &646570535
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21257342, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 646570533}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300022, guid: 02ef9e63fdf31594491f5cbef3b419db, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &656034589
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 125018, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 656034590}
+  - component: {fileID: 656034591}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Clouds_8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &656034590
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 489416, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 656034589}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.327848, y: -0.5364781, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 750348544}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &656034591
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21209236, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 656034589}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 21300014, guid: 17d04c11123faf14ca196b28fb7d431d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &674831688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 148908, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 674831689}
+  - component: {fileID: 674831690}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Islands_7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &674831689
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 419710, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 674831688}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.22, y: -0.8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1368578196}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &674831690
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21206700, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 674831688}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300016, guid: 9b7dc5904eaed314884dc843260486fa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &681240741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 165276, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 681240742}
+  - component: {fileID: 681240743}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Clouds_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &681240742
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 449314, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 681240741}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.497848, y: -3.696478, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 750348544}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &681240743
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21241120, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 681240741}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 21300004, guid: 17d04c11123faf14ca196b28fb7d431d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &747774370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 173940, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 747774371}
+  - component: {fileID: 747774372}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Islands_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &747774371
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 486326, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 747774370}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.774443, y: -0.31373224, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791915822}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &747774372
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21290994, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 747774370}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300004, guid: 02ef9e63fdf31594491f5cbef3b419db, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!4 &750348544
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 473290, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1074463181}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 31129014}
+  - {fileID: 172168343}
+  - {fileID: 681240742}
+  - {fileID: 1303479360}
+  - {fileID: 948335250}
+  - {fileID: 1382941363}
+  - {fileID: 1364624152}
+  - {fileID: 656034590}
+  - {fileID: 1548146823}
+  - {fileID: 1442502704}
+  - {fileID: 583704080}
+  - {fileID: 157179693}
+  - {fileID: 1846339386}
+  - {fileID: 887645693}
+  - {fileID: 226805624}
+  - {fileID: 2117284037}
+  - {fileID: 929938035}
+  - {fileID: 19340878}
+  m_Father: {fileID: 1080456266}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &761156206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 148678, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 761156207}
+  - component: {fileID: 761156208}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Islands_7 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &761156207
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 465620, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 761156206}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -16.34, y: -1.03, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1368578196}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &761156208
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21285618, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 761156206}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300016, guid: 9b7dc5904eaed314884dc843260486fa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &798857707
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 798857712}
+  - component: {fileID: 798857711}
+  - component: {fileID: 798857710}
+  - component: {fileID: 798857709}
+  - component: {fileID: 798857708}
+  - component: {fileID: 798857713}
+  - component: {fileID: 798857714}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &798857708
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 798857707}
+  m_Enabled: 1
+--- !u!124 &798857709
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 798857707}
+  m_Enabled: 1
+--- !u!92 &798857710
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 798857707}
+  m_Enabled: 1
+--- !u!20 &798857711
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 798857707}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 8.212636
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!4 &798857712
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 798857707}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -29.57, y: -0.23, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &798857713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 798857707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75c4d36108612914092217058df77f12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.25
+--- !u!114 &798857714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 798857707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d1a5fa60a9493c48b07eff2f9ea3274, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backgrounds:
+  - {fileID: 22514276}
+  - {fileID: 1791915822}
+  - {fileID: 472774319}
+  - {fileID: 163071434}
+  - {fileID: 1517607475}
+  - {fileID: 1368578196}
+  - {fileID: 750348544}
+  parallaxScale: 1.15
+  parallaxReductionFactor: 17.63
+  smoothing: 1
+--- !u!1 &854469121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 113532, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 854469122}
+  - component: {fileID: 854469123}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Islands_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &854469122
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 468606, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 854469121}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 45.22, y: -1.22, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1368578196}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &854469123
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21239508, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 854469121}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300006, guid: 9b7dc5904eaed314884dc843260486fa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &887645692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 178760, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 887645693}
+  - component: {fileID: 887645694}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Clouds_0 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &887645693
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 432574, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 887645692}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 36.04, y: -0.73, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 750348544}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &887645694
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21276902, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 887645692}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 21300000, guid: 17d04c11123faf14ca196b28fb7d431d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &929938034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 139004, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 929938035}
+  - component: {fileID: 929938036}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Clouds_0 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &929938035
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 454378, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 929938034}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -16.74, y: -1.22, z: 0}
+  m_LocalScale: {x: 0.8101104, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 750348544}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &929938036
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21211110, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 929938034}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 21300000, guid: 17d04c11123faf14ca196b28fb7d431d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &948335249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 148044, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 948335250}
+  - component: {fileID: 948335251}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Clouds_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &948335250
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 444462, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 948335249}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.02785, y: 1.4935219, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 750348544}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &948335251
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21226840, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 948335249}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 21300008, guid: 17d04c11123faf14ca196b28fb7d431d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &968917503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 148576, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 968917504}
+  - component: {fileID: 968917505}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Islands_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &968917504
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 422686, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 968917503}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1, y: -0.83, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 105969725}
+  m_Father: {fileID: 1368578196}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &968917505
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21299490, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 968917503}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300002, guid: 9b7dc5904eaed314884dc843260486fa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &979370931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 103296, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 979370932}
+  - component: {fileID: 979370933}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Islands_9 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &979370932
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 409412, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 979370931}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 24.21, y: -0.93, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791915822}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &979370933
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21254166, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 979370931}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300018, guid: 02ef9e63fdf31594491f5cbef3b419db, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1068172969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 195536, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1068172970}
+  - component: {fileID: 1068172971}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Islands_12 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1068172970
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 490768, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1068172969}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.04, y: -1.82, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1368578196}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1068172971
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21294116, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1068172969}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300026, guid: 9b7dc5904eaed314884dc843260486fa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1074463181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 181734, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 750348544}
+  m_Layer: 0
+  m_Name: Layer 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1080456265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 129344, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1080456266}
+  m_Layer: 0
+  m_Name: Sky Islands Parallaxing Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1080456266
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 484802, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1080456265}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.7578483, y: 0.0764781, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 22514276}
+  - {fileID: 1791915822}
+  - {fileID: 472774319}
+  - {fileID: 163071434}
+  - {fileID: 1517607475}
+  - {fileID: 1368578196}
+  - {fileID: 750348544}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1175780836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 155288, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1175780837}
+  - component: {fileID: 1175780838}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Islands_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1175780837
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 448438, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1175780836}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.607983, y: -0.5952635, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791915822}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1175780838
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21262784, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1175780836}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 02ef9e63fdf31594491f5cbef3b419db, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1203340258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 105670, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1203340259}
+  - component: {fileID: 1203340260}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Islands_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1203340259
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 491784, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1203340258}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.36, y: 0.63, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 163071434}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1203340260
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21256212, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1203340258}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300000, guid: 3a6b3fa98110e924ca231f7d61b9d6f0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1296192249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 157358, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1296192250}
+  - component: {fileID: 1296192251}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Clouds_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1296192250
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 401940, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1296192249}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.26, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1517607475}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1296192251
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21287936, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1296192249}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 21300002, guid: cf0c5485be967094f90171b61aad1e77, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1303479359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100588, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1303479360}
+  - component: {fileID: 1303479361}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Clouds_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1303479360
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 451132, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1303479359}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.56, y: 1.27, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 750348544}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1303479361
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21294022, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1303479359}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 21300006, guid: 17d04c11123faf14ca196b28fb7d431d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.529}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1353916244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 133784, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1353916245}
+  - component: {fileID: 1353916246}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Islands_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1353916245
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 491604, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1353916244}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.2894397, y: -0.31373224, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791915822}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1353916246
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21288238, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1353916244}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300010, guid: 02ef9e63fdf31594491f5cbef3b419db, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1364624151
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 165258, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1364624152}
+  - component: {fileID: 1364624153}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Clouds_7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1364624152
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 453340, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1364624151}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.317848, y: -3.436478, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 750348544}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1364624153
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21238708, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1364624151}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 21300012, guid: 17d04c11123faf14ca196b28fb7d431d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!4 &1368578196
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 436936, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 479637122}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 568593465}
+  - {fileID: 552894723}
+  - {fileID: 968917504}
+  - {fileID: 262846247}
+  - {fileID: 854469122}
+  - {fileID: 1381871200}
+  - {fileID: 1620917699}
+  - {fileID: 674831689}
+  - {fileID: 1499297252}
+  - {fileID: 1531540899}
+  - {fileID: 81496694}
+  - {fileID: 2067735846}
+  - {fileID: 761156207}
+  - {fileID: 1068172970}
+  m_Father: {fileID: 1080456266}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1381871199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 184172, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1381871200}
+  - component: {fileID: 1381871201}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Islands_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1381871200
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440356, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1381871199}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.66, y: 0.65, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1368578196}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1381871201
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21240644, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1381871199}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300008, guid: 9b7dc5904eaed314884dc843260486fa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1382941362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 160634, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1382941363}
+  - component: {fileID: 1382941364}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Clouds_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1382941363
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 474052, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1382941362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.937849, y: 2.443522, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 750348544}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1382941364
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21212534, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1382941362}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 21300010, guid: 17d04c11123faf14ca196b28fb7d431d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1391178546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 153596, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 22514276}
+  m_Layer: 0
+  m_Name: Layer 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1428157713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 116168, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 472774319}
+  m_Layer: 0
+  m_Name: Layer 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1442502703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 130980, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1442502704}
+  - component: {fileID: 1442502705}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Clouds_11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1442502704
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 468248, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1442502703}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 37.05, y: -1.39, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 750348544}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1442502705
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21220714, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1442502703}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 21300020, guid: 17d04c11123faf14ca196b28fb7d431d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1001 &1447705613
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 484802, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -7.7578483
+      objectReference: {fileID: 0}
+    - target: {fileID: 484802, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.0764781
+      objectReference: {fileID: 0}
+    - target: {fileID: 484802, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 484802, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 484802, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 484802, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 484802, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 484802, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_RootGameObject: {fileID: 1080456265}
+  m_IsPrefabParent: 0
+--- !u!1 &1499297251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 130642, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1499297252}
+  - component: {fileID: 1499297253}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Islands_8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1499297252
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 489394, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1499297251}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.74, y: -1.78, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1368578196}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1499297253
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21239210, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1499297251}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300018, guid: 9b7dc5904eaed314884dc843260486fa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!4 &1517607475
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 445682, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1633660261}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 208634466}
+  - {fileID: 1296192250}
+  - {fileID: 383128271}
+  - {fileID: 2017633275}
+  - {fileID: 1703185686}
+  - {fileID: 1528827361}
+  - {fileID: 584680569}
+  - {fileID: 194173239}
+  - {fileID: 177635729}
+  - {fileID: 250539487}
+  m_Father: {fileID: 1080456266}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1528827360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 138050, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1528827361}
+  - component: {fileID: 1528827362}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Clouds_1 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1528827361
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 433054, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1528827360}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 24.37, y: -2.36, z: 0}
+  m_LocalScale: {x: 1.2421302, y: 1.2114073, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1517607475}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1528827362
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21278572, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1528827360}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 21300002, guid: cf0c5485be967094f90171b61aad1e77, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1531540898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 175538, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1531540899}
+  - component: {fileID: 1531540900}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Islands_9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1531540899
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 417260, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1531540898}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 29.18, y: -0.97, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1368578196}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1531540900
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21282224, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1531540898}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300020, guid: 9b7dc5904eaed314884dc843260486fa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1548146822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 139786, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1548146823}
+  - component: {fileID: 1548146824}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Clouds_9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1548146823
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 409474, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1548146822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 28.62785, y: 1.2035218, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 750348544}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1548146824
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21242154, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1548146822}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 21300016, guid: 17d04c11123faf14ca196b28fb7d431d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1560510975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 163812, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1560510976}
+  - component: {fileID: 1560510977}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Islands_8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1560510976
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 414114, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1560510975}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.304001, y: -0.54408014, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791915822}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1560510977
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21277918, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1560510975}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300016, guid: 02ef9e63fdf31594491f5cbef3b419db, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1620917698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 113560, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1620917699}
+  - component: {fileID: 1620917700}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Islands_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1620917699
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457708, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1620917698}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.3, y: -0.91, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1894359577}
+  m_Father: {fileID: 1368578196}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1620917700
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21267930, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1620917698}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300010, guid: 9b7dc5904eaed314884dc843260486fa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1633660261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 150030, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1517607475}
+  m_Layer: 0
+  m_Name: Layer 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1638212834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 191074, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1638212835}
+  - component: {fileID: 1638212836}
+  m_Layer: 0
+  m_Name: Sky Islands - Layer 0 - Deep Background (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1638212835
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 413780, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1638212834}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -35.442, y: -0.076478, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22514276}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1638212836
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21269036, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1638212834}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 47baa12794fb0864fbf6b3b38767dcc0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1671583462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 133186, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1671583463}
+  - component: {fileID: 1671583465}
+  - component: {fileID: 1671583464}
+  m_Layer: 0
+  m_Name: Waterfall 4_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1671583463
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 444842, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1671583462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.98415184, y: 1.356522, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 81496694}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1671583464
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9550434, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1671583462}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a3aa40487ee3b5346959a0fdbac6b047, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!212 &1671583465
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21214056, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1671583462}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 6
+  m_Sprite: {fileID: 21300034, guid: 06b08ea067eea57468257d7e80d80a89, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1703185685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 144918, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1703185686}
+  - component: {fileID: 1703185687}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Clouds_1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1703185686
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 433072, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1703185685}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 19.62, y: -1.72, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1517607475}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1703185687
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21240946, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1703185685}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 21300002, guid: cf0c5485be967094f90171b61aad1e77, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1708845677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 171104, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1708845678}
+  - component: {fileID: 1708845679}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Clouds_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1708845678
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 408946, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1708845677}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.792152, y: -0.61647815, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 472774319}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1708845679
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21255060, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1708845677}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300002, guid: 7defff1d4aff79044ad92d574a65dde1, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1732547442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 152400, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791915822}
+  m_Layer: 0
+  m_Name: Layer 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1745754301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 154296, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1745754302}
+  - component: {fileID: 1745754303}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Islands_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1745754302
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 493192, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1745754301}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.86, y: 0.65, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 163071434}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1745754303
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21248364, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1745754301}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300012, guid: 3a6b3fa98110e924ca231f7d61b9d6f0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1752443087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 135888, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1752443088}
+  - component: {fileID: 1752443089}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Islands_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1752443088
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 486884, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1752443087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.15, y: -0.88, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791915822}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1752443089
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21272158, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1752443087}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300008, guid: 02ef9e63fdf31594491f5cbef3b419db, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1757356427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 145722, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1757356428}
+  - component: {fileID: 1757356429}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Islands_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1757356428
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 483556, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1757356427}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.83, y: 0.44, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 163071434}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1757356429
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21208522, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1757356427}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300004, guid: 3a6b3fa98110e924ca231f7d61b9d6f0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!4 &1791915822
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 489668, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1732547442}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 646570534}
+  - {fileID: 1965920999}
+  - {fileID: 352480437}
+  - {fileID: 1560510976}
+  - {fileID: 343470576}
+  - {fileID: 1838263250}
+  - {fileID: 1353916245}
+  - {fileID: 1752443088}
+  - {fileID: 166600652}
+  - {fileID: 747774371}
+  - {fileID: 374723905}
+  - {fileID: 1175780837}
+  - {fileID: 1820928538}
+  - {fileID: 979370932}
+  - {fileID: 148576584}
+  m_Father: {fileID: 1080456266}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1820928537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 191600, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1820928538}
+  - component: {fileID: 1820928539}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Islands_5 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1820928538
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 414614, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1820928537}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -18.68, y: -0.65, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791915822}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1820928539
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21215096, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1820928537}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300010, guid: 02ef9e63fdf31594491f5cbef3b419db, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1838263249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 199802, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1838263250}
+  - component: {fileID: 1838263251}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Islands_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1838263250
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 496176, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1838263249}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.388152, y: -0.36492333, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791915822}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1838263251
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21243342, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1838263249}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300012, guid: 02ef9e63fdf31594491f5cbef3b419db, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1846339385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100342, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1846339386}
+  - component: {fileID: 1846339387}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Clouds_4 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1846339386
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 483046, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1846339385}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 29.02, y: 0.18, z: 0}
+  m_LocalScale: {x: 1.4867594, y: 1.4867594, z: 1.4867594}
+  m_Children: []
+  m_Father: {fileID: 750348544}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1846339387
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21293046, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1846339385}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 21300006, guid: 17d04c11123faf14ca196b28fb7d431d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1885716378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 156398, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1885716379}
+  - component: {fileID: 1885716380}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Clouds_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1885716379
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 441238, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1885716378}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.3078485, y: -0.20647809, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 472774319}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1885716380
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21274944, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1885716378}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300006, guid: 7defff1d4aff79044ad92d574a65dde1, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1894359576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 104804, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1894359577}
+  - component: {fileID: 1894359579}
+  - component: {fileID: 1894359578}
+  m_Layer: 0
+  m_Name: Waterfall3_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1894359577
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 489744, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1894359576}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.1558483, y: 0.1535219, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1620917699}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1894359578
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9543694, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1894359576}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bc8bace957db7a7419676291720c903b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!212 &1894359579
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21205466, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1894359576}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 6
+  m_Sprite: {fileID: 21300000, guid: 95d21ac8a9e49c94680e4f406ca1d424, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1937029479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 110144, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1937029480}
+  - component: {fileID: 1937029481}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Clouds_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1937029480
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 404920, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1937029479}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.802151, y: -0.7864781, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 472774319}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1937029481
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21289088, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1937029479}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 7defff1d4aff79044ad92d574a65dde1, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1947704700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 192666, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1947704701}
+  - component: {fileID: 1947704702}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Islands_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1947704701
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 409756, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1947704700}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.8, y: -1.02, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 163071434}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1947704702
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21247860, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1947704700}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300006, guid: 3a6b3fa98110e924ca231f7d61b9d6f0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1965920998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 175240, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1965920999}
+  - component: {fileID: 1965921000}
+  m_Layer: 0
+  m_Name: Sky Islands - Background Islands_10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1965920999
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 433596, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1965920998}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.885317, y: -0.41612157, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791915822}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1965921000
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21291920, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 1965920998}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300020, guid: 02ef9e63fdf31594491f5cbef3b419db, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &2013671570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 128478, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2013671571}
+  - component: {fileID: 2013671572}
+  m_Layer: 0
+  m_Name: Sky Islands - Layer 0 - Deep Background (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2013671571
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 489410, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 2013671570}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 50.958, y: -0.076478, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22514276}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2013671572
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21225320, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 2013671570}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 47baa12794fb0864fbf6b3b38767dcc0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &2017633274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 166286, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2017633275}
+  - component: {fileID: 2017633276}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Clouds_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2017633275
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 402190, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 2017633274}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.08, y: -1.29, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1517607475}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2017633276
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21262742, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 2017633274}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 21300008, guid: cf0c5485be967094f90171b61aad1e77, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &2032983402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 155534, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2032983403}
+  - component: {fileID: 2032983404}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Islands_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2032983403
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488124, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 2032983402}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.86, y: -0.94, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 163071434}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2032983404
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21257990, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 2032983402}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300010, guid: 3a6b3fa98110e924ca231f7d61b9d6f0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &2046742729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 184380, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2046742730}
+  - component: {fileID: 2046742731}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Islands_11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2046742730
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 470490, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 2046742729}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.63, y: -0.92, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 163071434}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2046742731
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21204484, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 2046742729}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300022, guid: 3a6b3fa98110e924ca231f7d61b9d6f0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &2050820836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 149226, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2050820837}
+  - component: {fileID: 2050820839}
+  - component: {fileID: 2050820838}
+  m_Layer: 0
+  m_Name: Waterfall 1_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2050820837
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 485460, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 2050820836}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.69825745, y: 1.3040522, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 552894723}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2050820838
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9541016, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 2050820836}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7f30e7413f4060049bb658ab94602569, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!212 &2050820839
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21223300, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 2050820836}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 6
+  m_Sprite: {fileID: 21300000, guid: 1430cbc6ac4159246992fc41bce73781, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &2067735845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 107532, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2067735846}
+  - component: {fileID: 2067735847}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Islands_11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2067735846
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 416916, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 2067735845}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 24.51, y: -2.95, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1368578196}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2067735847
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21289356, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 2067735845}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300024, guid: 9b7dc5904eaed314884dc843260486fa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &2117284036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 161384, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2117284037}
+  - component: {fileID: 2117284038}
+  m_Layer: 0
+  m_Name: Sky Islands - Foreground Clouds_7 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2117284037
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 481082, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 2117284036}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.29, y: -0.66, z: 0}
+  m_LocalScale: {x: 1.3682442, y: 2.5635796, z: 2.0367687}
+  m_Children: []
+  m_Father: {fileID: 750348544}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2117284038
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21264142, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 2117284036}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 21300012, guid: 17d04c11123faf14ca196b28fb7d431d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &2142942863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182428, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2142942864}
+  - component: {fileID: 2142942865}
+  m_Layer: 0
+  m_Name: Sky Islands - Midground Islands_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2142942864
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 496780, guid: 96c29f17f321e584c909128dac1ad0e2, type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 2142942863}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.92, y: 0.68, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 163071434}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2142942865
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21273108, guid: 96c29f17f321e584c909128dac1ad0e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1447705613}
+  m_GameObject: {fileID: 2142942863}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -409569075
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300008, guid: 3a6b3fa98110e924ca231f7d61b9d6f0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0

@@ -1,0 +1,270 @@
+fileFormatVersion: 2
+guid: 7defff1d4aff79044ad92d574a65dde1
+timeCreated: 1471280886
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sky Islands - Background Clouds_0
+    21300002: Sky Islands - Background Clouds_1
+    21300004: Sky Islands - Background Clouds_2
+    21300006: Sky Islands - Background Clouds_3
+    21300008: Sky Islands - Background Clouds_4
+    21300010: Sky Islands - Background Clouds_5
+    21300012: Sky Islands - Background Clouds_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Sky Islands - Background Clouds_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 544
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 272, y: -40}
+        - {x: 272, y: -18}
+        - {x: 199, y: 36}
+        - {x: 132, y: 53}
+        - {x: 110, y: 56}
+        - {x: 53, y: 73}
+        - {x: 13, y: 73}
+        - {x: -53, y: 57}
+        - {x: -122, y: 36}
+        - {x: -223, y: -3}
+        - {x: -272, y: -21}
+        - {x: -272, y: -49}
+        - {x: -252, y: -66}
+        - {x: -169, y: -55}
+        - {x: -115, y: -73}
+        - {x: 24, y: -73}
+        - {x: 97, y: -67}
+        - {x: 150, y: -61}
+        - {x: 257, y: -53}
+    - name: Sky Islands - Background Clouds_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 650
+        width: 696
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 342, y: -71.5}
+        - {x: 348, y: -56.5}
+        - {x: 348, y: -34.5}
+        - {x: 294, y: 0.5}
+        - {x: 227, y: 50.5}
+        - {x: 213, y: 58.5}
+        - {x: 189, y: 61.5}
+        - {x: 146, y: 88.5}
+        - {x: 108, y: 88.5}
+        - {x: 73, y: 82.5}
+        - {x: 31, y: 59.5}
+        - {x: 18, y: 43.5}
+        - {x: -19, y: 56.5}
+        - {x: -84, y: 54.5}
+        - {x: -147, y: 43.5}
+        - {x: -209, y: 22.5}
+        - {x: -254, y: 13.5}
+        - {x: -278, y: -21.5}
+        - {x: -346, y: -45.5}
+        - {x: -348, y: -49.5}
+        - {x: -348, y: -82.5}
+        - {x: -346, y: -87.5}
+        - {x: -258, y: -83.5}
+        - {x: -223, y: -88.5}
+        - {x: -218, y: -88.5}
+        - {x: -99, y: -81.5}
+        - {x: -65, y: -83.5}
+        - {x: -12, y: -63.5}
+        - {x: 29, y: -87.5}
+        - {x: 34, y: -88.5}
+        - {x: 99, y: -88.5}
+        - {x: 170, y: -71.5}
+        - {x: 214, y: -64.5}
+        - {x: 326, y: -78.5}
+    - name: Sky Islands - Background Clouds_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 834
+        width: 738
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 351, y: -76}
+        - {x: 365, y: -35}
+        - {x: 365, y: -16}
+        - {x: 326, y: 16}
+        - {x: 292, y: 17}
+        - {x: 274, y: 37}
+        - {x: 254, y: 44}
+        - {x: 195, y: 55}
+        - {x: 162, y: 50}
+        - {x: 121, y: 31}
+        - {x: 89, y: 51}
+        - {x: 51, y: 53}
+        - {x: 27, y: 60}
+        - {x: 7, y: 71}
+        - {x: -19, y: 67}
+        - {x: -52, y: 95}
+        - {x: -102, y: 95}
+        - {x: -132, y: 91}
+        - {x: -169, y: 79}
+        - {x: -206, y: 73}
+        - {x: -256, y: 54}
+        - {x: -281, y: 33}
+        - {x: -356, y: -24}
+        - {x: -369, y: -33}
+        - {x: -369, y: -53}
+        - {x: -367, y: -55}
+        - {x: -332, y: -65}
+        - {x: -283, y: -65}
+        - {x: -270, y: -70}
+        - {x: -198, y: -77}
+        - {x: -147, y: -89}
+        - {x: -84, y: -88}
+        - {x: -65, y: -91}
+        - {x: -27, y: -95}
+        - {x: 144, y: -95}
+        - {x: 234, y: -91}
+        - {x: 325, y: -89}
+    - name: Sky Islands - Background Clouds_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 423
+        width: 393
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: 36.5}
+        - {x: -59.5, y: 36.5}
+        - {x: -184.5, y: 2.5}
+        - {x: -196.5, y: -6.5}
+        - {x: -196.5, y: -23.5}
+        - {x: -147.5, y: -36.5}
+        - {x: 106.5, y: -36.5}
+        - {x: 124.5, y: -34.5}
+        - {x: 196.5, y: -14.5}
+        - {x: 196.5, y: 13.5}
+        - {x: 194.5, y: 17.5}
+    - name: Sky Islands - Background Clouds_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 170
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47, y: 30.5}
+        - {x: -5, y: 30.5}
+        - {x: -83, y: 21.5}
+        - {x: -85, y: 16.5}
+        - {x: -85, y: -22.5}
+        - {x: -63, y: -30.5}
+        - {x: 64, y: -30.5}
+        - {x: 79, y: -29.5}
+        - {x: 85, y: -17.5}
+        - {x: 85, y: 12.5}
+        - {x: 69, y: 27.5}
+    - name: Sky Islands - Background Clouds_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 245
+        width: 191
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -95.5, y: -25.5}
+        - {x: -86.5, y: -37.5}
+        - {x: 74.5, y: -37.5}
+        - {x: 95.5, y: -31.5}
+        - {x: 95.5, y: 16.5}
+        - {x: 75.5, y: 35.5}
+        - {x: 50.5, y: 37.5}
+        - {x: -51.5, y: 37.5}
+        - {x: -95.5, y: 10.5}
+    - name: Sky Islands - Background Clouds_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 329
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70.5, y: 47.5}
+        - {x: -20.5, y: 47.5}
+        - {x: -164.5, y: -2.5}
+        - {x: -164.5, y: -21.5}
+        - {x: -136.5, y: -47.5}
+        - {x: 164.5, y: -47.5}
+        - {x: 164.5, y: 12.5}
+        - {x: 121.5, y: 39.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

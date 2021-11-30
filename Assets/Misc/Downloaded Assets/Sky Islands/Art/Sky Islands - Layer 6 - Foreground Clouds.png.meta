@@ -1,0 +1,341 @@
+fileFormatVersion: 2
+guid: 17d04c11123faf14ca196b28fb7d431d
+timeCreated: 1471279471
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sky Islands - Foreground Clouds_0
+    21300002: Sky Islands - Foreground Clouds_2
+    21300004: Sky Islands - Foreground Clouds_3
+    21300006: Sky Islands - Foreground Clouds_4
+    21300008: Sky Islands - Foreground Clouds_5
+    21300010: Sky Islands - Foreground Clouds_6
+    21300012: Sky Islands - Foreground Clouds_7
+    21300014: Sky Islands - Foreground Clouds_8
+    21300016: Sky Islands - Foreground Clouds_9
+    21300018: Sky Islands - Foreground Clouds_10
+    21300020: Sky Islands - Foreground Clouds_11
+    21300022: Sky Islands - Foreground Clouds_12
+    21300024: Sky Islands - Foreground Clouds_13
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Sky Islands - Foreground Clouds_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 470
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: 62}
+        - {x: -27, y: 62}
+        - {x: -208, y: 19}
+        - {x: -235, y: -8}
+        - {x: -235, y: -28}
+        - {x: -145, y: -42}
+        - {x: -9, y: -62}
+        - {x: 71, y: -62}
+        - {x: 235, y: -28}
+        - {x: 235, y: -19}
+        - {x: 214, y: -4}
+    - name: Sky Islands - Foreground Clouds_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 316
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 44.5}
+        - {x: -158, y: 13.5}
+        - {x: -158, y: -44.5}
+        - {x: 152, y: -44.5}
+        - {x: 158, y: -28.5}
+        - {x: 158, y: -14.5}
+        - {x: 56, y: 44.5}
+    - name: Sky Islands - Foreground Clouds_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 72
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sky Islands - Foreground Clouds_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 721
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 247.5, y: -83}
+        - {x: 301.5, y: -45}
+        - {x: 360.5, y: -11}
+        - {x: 360.5, y: 4}
+        - {x: 357.5, y: 9}
+        - {x: 305.5, y: 20}
+        - {x: 205.5, y: 34}
+        - {x: 146.5, y: 43}
+        - {x: 128.5, y: 57}
+        - {x: 79.5, y: 71}
+        - {x: -16.5, y: 80}
+        - {x: -47.5, y: 66}
+        - {x: -130.5, y: 88}
+        - {x: -169.5, y: 88}
+        - {x: -195.5, y: 77}
+        - {x: -213.5, y: 50}
+        - {x: -264.5, y: 54}
+        - {x: -347.5, y: 20}
+        - {x: -360.5, y: 4}
+        - {x: -360.5, y: -6}
+        - {x: -331.5, y: -18}
+        - {x: -265.5, y: -40}
+        - {x: -230.5, y: -67}
+        - {x: -155.5, y: -88}
+        - {x: -116.5, y: -88}
+        - {x: -62.5, y: -60}
+        - {x: 36.5, y: -39}
+        - {x: 116.5, y: -68}
+        - {x: 182.5, y: -79}
+      - - {x: 99.5, y: -86}
+        - {x: 99.5, y: -88}
+        - {x: 105.5, y: -88}
+        - {x: 105.5, y: -86}
+        - {x: 103.5, y: -84}
+        - {x: 101.5, y: -84}
+    - name: Sky Islands - Foreground Clouds_5
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 143
+        width: 317
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -141.5, y: 29.5}
+        - {x: -158.5, y: 5.5}
+        - {x: -158.5, y: -3.5}
+        - {x: -95.5, y: -29.5}
+        - {x: 33.5, y: -29.5}
+        - {x: 158.5, y: -10.5}
+        - {x: 158.5, y: 10.5}
+        - {x: 132.5, y: 29.5}
+    - name: Sky Islands - Foreground Clouds_6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 28
+        width: 208
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -75, y: 22.5}
+        - {x: -104, y: -0.5}
+        - {x: -104, y: -14.5}
+        - {x: -100, y: -22.5}
+        - {x: 104, y: -22.5}
+        - {x: 104, y: 5.5}
+        - {x: 64, y: 22.5}
+    - name: Sky Islands - Foreground Clouds_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 77
+        width: 267
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -133.5, y: 30}
+        - {x: -133.5, y: -19}
+        - {x: -91.5, y: -30}
+        - {x: 90.5, y: -30}
+        - {x: 133.5, y: -9}
+        - {x: 133.5, y: 30}
+    - name: Sky Islands - Foreground Clouds_8
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 141
+        width: 253
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 31.5}
+        - {x: -96.5, y: 31.5}
+        - {x: -126.5, y: 13.5}
+        - {x: -126.5, y: -26.5}
+        - {x: -103.5, y: -31.5}
+        - {x: 68.5, y: -31.5}
+        - {x: 123.5, y: -5.5}
+        - {x: 126.5, y: -2.5}
+        - {x: 126.5, y: 22.5}
+    - name: Sky Islands - Foreground Clouds_9
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 255
+        width: 210
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -88, y: 38.5}
+        - {x: -105, y: 17.5}
+        - {x: -105, y: -38.5}
+        - {x: 92, y: -38.5}
+        - {x: 105, y: -37.5}
+        - {x: 105, y: 3.5}
+        - {x: -9, y: 38.5}
+    - name: Sky Islands - Foreground Clouds_10
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 49
+        width: 209
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.5, y: 44}
+        - {x: -97.5, y: 21}
+        - {x: -104.5, y: 6}
+        - {x: -104.5, y: -23}
+        - {x: -70.5, y: -44}
+        - {x: 44.5, y: -44}
+        - {x: 104.5, y: -25}
+        - {x: 104.5, y: 16}
+        - {x: 13.5, y: 44}
+    - name: Sky Islands - Foreground Clouds_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 188
+        width: 179
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70.5, y: 7.5}
+        - {x: 35.5, y: 24.5}
+        - {x: 5.5, y: 30.5}
+        - {x: -22.5, y: 30.5}
+        - {x: -89.5, y: -2.5}
+        - {x: -89.5, y: -14.5}
+        - {x: -87.5, y: -19.5}
+        - {x: -35.5, y: -30.5}
+        - {x: 57.5, y: -30.5}
+        - {x: 89.5, y: -9.5}
+        - {x: 89.5, y: -0.5}
+        - {x: 83.5, y: 0.5}
+    - name: Sky Islands - Foreground Clouds_12
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 277
+        width: 134
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 27.5}
+        - {x: -67, y: 10.5}
+        - {x: -67, y: -27.5}
+        - {x: 29, y: -27.5}
+        - {x: 67, y: -11.5}
+        - {x: 67, y: 8.5}
+        - {x: 10, y: 27.5}
+    - name: Sky Islands - Foreground Clouds_13
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 452
+        width: 136
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 30}
+        - {x: -68, y: 11}
+        - {x: -68, y: -6}
+        - {x: -64, y: -16}
+        - {x: -29, y: -23}
+        - {x: -5, y: -23}
+        - {x: 64, y: 3}
+        - {x: 68, y: 9}
+        - {x: 68, y: 19}
+        - {x: 32, y: 30}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

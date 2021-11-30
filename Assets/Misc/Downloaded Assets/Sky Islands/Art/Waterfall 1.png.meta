@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 1430cbc6ac4159246992fc41bce73781
+timeCreated: 1471268747
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Waterfall 1_0
+    21300002: Waterfall 1_1
+    21300004: Waterfall 1_2
+    21300006: Waterfall 1_3
+    21300008: Waterfall 1_4
+    21300010: Waterfall 1_5
+    21300012: Waterfall 1_6
+    21300014: Waterfall 1_7
+    21300016: Waterfall 1_8
+    21300018: Waterfall 1_9
+    21300020: Waterfall 1_10
+    21300022: Waterfall 1_11
+    21300024: Waterfall 1_12
+    21300026: Waterfall 1_13
+    21300028: Waterfall 1_14
+    21300030: Waterfall 1_15
+    21300032: Waterfall 1_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Waterfall 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: -186}
+        - {x: 64, y: -175}
+        - {x: 64, y: -102}
+        - {x: 51, y: -46}
+        - {x: 42, y: -46}
+        - {x: 42, y: -219}
+        - {x: 46, y: -219}
+        - {x: 49, y: -218}
+        - {x: 50, y: -209}
+        - {x: 50, y: -156}
+        - {x: 55, y: -180}
+      - - {x: 35, y: -7}
+        - {x: 34, y: -9}
+        - {x: 34, y: -12}
+        - {x: 37, y: -15}
+        - {x: 41, y: -26}
+        - {x: 45, y: -36}
+        - {x: 47, y: -36}
+        - {x: 49, y: -35}
+        - {x: 49, y: -13}
+        - {x: 39, y: -7}
+    - name: Waterfall 1_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: -46}
+        - {x: 42, y: -219}
+        - {x: 52, y: -219}
+        - {x: 64, y: -185}
+        - {x: 64, y: -108}
+        - {x: 51, y: -46}
+      - - {x: 33, y: -16}
+        - {x: 45, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: -16}
+        - {x: 46, y: -7}
+        - {x: 34, y: -7}
+        - {x: 33, y: -9}
+    - name: Waterfall 1_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: -46}
+        - {x: 44, y: -46}
+        - {x: 42, y: -48}
+        - {x: 42, y: -214}
+        - {x: 43, y: -219}
+        - {x: 51, y: -219}
+        - {x: 64, y: -191}
+        - {x: 64, y: -117}
+        - {x: 58, y: -73}
+      - - {x: 34, y: -7}
+        - {x: 34, y: -14}
+        - {x: 45, y: -37}
+        - {x: 49, y: -37}
+        - {x: 50, y: -36}
+        - {x: 50, y: -12}
+        - {x: 40, y: -7}
+    - name: Waterfall 1_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: -46}
+        - {x: 44, y: -46}
+        - {x: 42, y: -48}
+        - {x: 44, y: -66}
+        - {x: 42, y: -111}
+        - {x: 42, y: -219}
+        - {x: 46, y: -219}
+        - {x: 50, y: -218}
+        - {x: 64, y: -200}
+        - {x: 64, y: -103}
+        - {x: 60, y: -48}
+      - - {x: 34, y: -7}
+        - {x: 34, y: -14}
+        - {x: 45, y: -37}
+        - {x: 49, y: -37}
+        - {x: 50, y: -36}
+        - {x: 50, y: -12}
+        - {x: 40, y: -7}
+    - name: Waterfall 1_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 256
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: -44}
+        - {x: 42, y: -44}
+        - {x: 42, y: -219}
+        - {x: 51, y: -219}
+        - {x: 63, y: -190}
+        - {x: 65, y: -180}
+        - {x: 65, y: -98}
+      - - {x: 36, y: -7}
+        - {x: 34, y: -9}
+        - {x: 34, y: -13}
+        - {x: 41, y: -31}
+        - {x: 45, y: -37}
+        - {x: 47, y: -37}
+        - {x: 49, y: -36}
+        - {x: 49, y: -15}
+        - {x: 41, y: -8}
+    - name: Waterfall 1_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 256
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: -44}
+        - {x: 42, y: -45}
+        - {x: 42, y: -215}
+        - {x: 43, y: -219}
+        - {x: 59, y: -219}
+        - {x: 65, y: -193}
+        - {x: 65, y: -91}
+        - {x: 49, y: -44}
+      - - {x: 34, y: -7}
+        - {x: 34, y: -14}
+        - {x: 41, y: -34}
+        - {x: 44, y: -37}
+        - {x: 49, y: -37}
+        - {x: 49, y: -14}
+        - {x: 41, y: -7}
+    - name: Waterfall 1_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 256
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: -219}
+        - {x: 49, y: -218}
+        - {x: 49, y: -215}
+        - {x: 46, y: -214}
+        - {x: 44, y: -216}
+      - - {x: 42, y: -213}
+        - {x: 58, y: -213}
+        - {x: 64, y: -208}
+        - {x: 64, y: -103}
+        - {x: 52, y: -47}
+        - {x: 48, y: -44}
+        - {x: 44, y: -44}
+        - {x: 42, y: -45}
+      - - {x: 34, y: -9}
+        - {x: 34, y: -11}
+        - {x: 39, y: -26}
+        - {x: 44, y: -37}
+        - {x: 48, y: -37}
+        - {x: 49, y: -36}
+        - {x: 49, y: -15}
+        - {x: 41, y: -7}
+        - {x: 36, y: -7}
+    - name: Waterfall 1_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 256
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: -219}
+        - {x: 49, y: -218}
+        - {x: 49, y: -215}
+        - {x: 46, y: -214}
+        - {x: 44, y: -216}
+      - - {x: 55, y: -44}
+        - {x: 42, y: -44}
+        - {x: 42, y: -207}
+        - {x: 43, y: -213}
+        - {x: 48, y: -213}
+        - {x: 51, y: -211}
+        - {x: 66, y: -198}
+        - {x: 66, y: -122}
+      - - {x: 34, y: -15}
+        - {x: 44, y: -37}
+        - {x: 49, y: -37}
+        - {x: 49, y: -10}
+        - {x: 48, y: -7}
+        - {x: 35, y: -7}
+        - {x: 34, y: -8}
+    - name: Waterfall 1_8
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 256
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: -219}
+        - {x: 49, y: -218}
+        - {x: 49, y: -215}
+        - {x: 46, y: -214}
+        - {x: 44, y: -216}
+      - - {x: 60, y: -190}
+        - {x: 64, y: -185}
+        - {x: 64, y: -122}
+        - {x: 52, y: -44}
+        - {x: 42, y: -44}
+        - {x: 42, y: -213}
+        - {x: 48, y: -213}
+        - {x: 50, y: -211}
+        - {x: 51, y: -178}
+        - {x: 55, y: -185}
+      - - {x: 34, y: -7}
+        - {x: 34, y: -17}
+        - {x: 44, y: -37}
+        - {x: 48, y: -37}
+        - {x: 50, y: -36}
+        - {x: 50, y: -17}
+        - {x: 43, y: -7}
+    - name: Waterfall 1_9
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 512
+        width: 256
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: -219}
+        - {x: 49, y: -218}
+        - {x: 49, y: -215}
+        - {x: 46, y: -214}
+        - {x: 44, y: -216}
+      - - {x: 51, y: -45}
+        - {x: 50, y: -44}
+        - {x: 41, y: -44}
+        - {x: 41, y: -213}
+        - {x: 53, y: -213}
+        - {x: 64, y: -186}
+        - {x: 64, y: -114}
+        - {x: 57, y: -74}
+      - - {x: 40, y: -7}
+        - {x: 34, y: -7}
+        - {x: 34, y: -16}
+        - {x: 43, y: -35}
+        - {x: 44, y: -37}
+        - {x: 47, y: -37}
+        - {x: 50, y: -36}
+        - {x: 50, y: -17}
+        - {x: 49, y: -11}
+    - name: Waterfall 1_10
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 512
+        width: 256
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: -44}
+        - {x: 42, y: -44}
+        - {x: 42, y: -196}
+        - {x: 43, y: -218}
+        - {x: 44, y: -219}
+        - {x: 54, y: -219}
+        - {x: 64, y: -196}
+        - {x: 64, y: -97}
+        - {x: 50, y: -46}
+      - - {x: 36, y: -7}
+        - {x: 34, y: -9}
+        - {x: 34, y: -13}
+        - {x: 43, y: -37}
+        - {x: 49, y: -37}
+        - {x: 50, y: -36}
+        - {x: 50, y: -18}
+        - {x: 44, y: -8}
+    - name: Waterfall 1_11
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 512
+        width: 256
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: -188}
+        - {x: 64, y: -188}
+        - {x: 64, y: -108}
+        - {x: 54, y: -47}
+        - {x: 51, y: -44}
+        - {x: 42, y: -44}
+        - {x: 42, y: -213}
+        - {x: 43, y: -218}
+        - {x: 45, y: -219}
+        - {x: 49, y: -219}
+        - {x: 52, y: -211}
+        - {x: 51, y: -180}
+        - {x: 55, y: -186}
+      - - {x: 35, y: -7}
+        - {x: 34, y: -9}
+        - {x: 34, y: -16}
+        - {x: 43, y: -37}
+        - {x: 48, y: -37}
+        - {x: 50, y: -36}
+        - {x: 50, y: -17}
+        - {x: 43, y: -7}
+    - name: Waterfall 1_12
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 512
+        width: 256
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: -219}
+        - {x: 49, y: -218}
+        - {x: 49, y: -215}
+        - {x: 46, y: -214}
+        - {x: 44, y: -216}
+      - - {x: 64, y: -188}
+        - {x: 64, y: -84}
+        - {x: 62, y: -61}
+        - {x: 50, y: -44}
+        - {x: 43, y: -44}
+        - {x: 42, y: -46}
+        - {x: 42, y: -195}
+        - {x: 43, y: -208}
+        - {x: 44, y: -213}
+        - {x: 49, y: -213}
+        - {x: 53, y: -178}
+        - {x: 55, y: -185}
+        - {x: 62, y: -191}
+      - - {x: 34, y: -14}
+        - {x: 43, y: -37}
+        - {x: 50, y: -37}
+        - {x: 50, y: -18}
+        - {x: 49, y: -10}
+        - {x: 45, y: -7}
+        - {x: 34, y: -7}
+    - name: Waterfall 1_13
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 512
+        width: 256
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: -218}
+        - {x: 64, y: -74}
+        - {x: 49, y: -44}
+        - {x: 42, y: -44}
+        - {x: 42, y: -218}
+      - - {x: 34, y: -7}
+        - {x: 33, y: -10}
+        - {x: 33, y: -18}
+        - {x: 44, y: -37}
+        - {x: 48, y: -37}
+        - {x: 50, y: -36}
+        - {x: 50, y: -17}
+        - {x: 43, y: -7}
+    - name: Waterfall 1_14
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 512
+        width: 256
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56, y: -219}
+        - {x: 64, y: -208}
+        - {x: 64, y: -51}
+        - {x: 63, y: -44}
+        - {x: 42, y: -44}
+        - {x: 42, y: -219}
+      - - {x: 34, y: -7}
+        - {x: 33, y: -9}
+        - {x: 33, y: -15}
+        - {x: 43, y: -37}
+        - {x: 48, y: -37}
+        - {x: 50, y: -36}
+        - {x: 50, y: -17}
+        - {x: 43, y: -7}
+    - name: Waterfall 1_15
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 512
+        width: 256
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: -44}
+        - {x: 42, y: -44}
+        - {x: 42, y: -219}
+        - {x: 62, y: -219}
+        - {x: 64, y: -210}
+        - {x: 64, y: -83}
+        - {x: 52, y: -46}
+      - - {x: 34, y: -7}
+        - {x: 33, y: -9}
+        - {x: 33, y: -15}
+        - {x: 43, y: -37}
+        - {x: 49, y: -37}
+        - {x: 50, y: -36}
+        - {x: 50, y: -17}
+        - {x: 43, y: -7}
+    - name: Waterfall 1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: -186}
+        - {x: 64, y: -175}
+        - {x: 64, y: -102}
+        - {x: 51, y: -46}
+        - {x: 42, y: -46}
+        - {x: 42, y: -219}
+        - {x: 46, y: -219}
+        - {x: 49, y: -218}
+        - {x: 50, y: -209}
+        - {x: 50, y: -156}
+        - {x: 55, y: -180}
+      - - {x: 35, y: -7}
+        - {x: 34, y: -9}
+        - {x: 34, y: -12}
+        - {x: 37, y: -15}
+        - {x: 41, y: -26}
+        - {x: 45, y: -36}
+        - {x: 47, y: -36}
+        - {x: 49, y: -35}
+        - {x: 49, y: -13}
+        - {x: 39, y: -7}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
